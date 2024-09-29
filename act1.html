@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend><b>Enter your Marks</b></legend>
+        <form action="/action_page.php"
+        oninput="x_value-(parsInt(m1.value)+parsInt (m2.value)+parsInt(m3.value))/3">
+ <label>Name</label><br>
+ <input type="text" id="Name"><br><br>
+<label>Enter your Marks</label><br>
+ <select name="subject" id=subject >
+ <option value="maths">maths</option>
+ <option value="english">english</option>
+ <option value="science">science</option></select>
+ <input type="number" id="m1" name="m1"><br><br>
+ 
+ <select name="subject2" id=subject 2>
+    <option value="maths">maths</option>
+    <option value="english">english</option>
+    <option value="science">science</option></select>
+    <input type="number" id="m1" name="m1"><br><br>
+ 
+    <select name="subject3" id=subject3 >
+        <option value="maths">maths</option>
+        <option value="english">english</option>
+        <option value="science">science</option></select>
+        <input type="number" id="m1" name="m1"><br><br>
+
+        Avrage:<output name ="x" for ="m1 m2 m3 "></output><br>
+       <input type= "submit" >
+    </form>
+    </fieldset>
+</body>
+</html>
