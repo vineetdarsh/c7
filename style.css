@@ -1,0 +1,26 @@
+/* global css */
+* {
+    font-size: 10 px;
+    font-weight: 500;
+}
+/* External CSS */
+ h3{
+    color: rgb(31, 69, 218);
+ }
+
+/* element selector */
+ h4{
+    color: rgb(14, 235, 161);
+ }
+/* class selector */
+.darsh{
+    color: rgb(122, 122, 122);
+}
+/* id selector */
+#myid{
+    color: rgb(14, 118, 125);
+}
+/* group selector */
+h5,p{
+    color: blueviolet;
+}
