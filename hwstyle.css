@@ -39,12 +39,12 @@ p:not(:first-of-type) {
     text-decoration: underline;
 }
 
-ul li ::before{
-    content: "🚀";
+ul li::before{
+    content: "";
 }
 
 ul li ::after{
-    content: "🌌";
+    content: "⚽";
 }
 
 p::first-letter{
